@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: dashboard-ui
-        image: lmapaz1acrdevshl01.azurecr.io/dashboard-ui:7
+        image: dashboard-ui:7
         ports:
         - containerPort: 80
 ---
